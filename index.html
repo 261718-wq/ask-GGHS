@@ -38,7 +38,7 @@ button,input,textarea,select{font:inherit}.top{background:var(--green);color:var
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 /* Supabase 프로젝트 URL과 anon key를 아래에 입력하세요. 이 키는 공개용 anon key이며 service_role 키는 절대 넣지 마세요. */
-const SUPABASE_URL = "https://izjlfbpttyicblbsvzlq.supabase.co/rest/v1/";
+const SUPABASE_URL = "https://izjlfbpttyicblbsvzlq.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_Jlx7dPzdqUwlgx6As8P0Jw_pnriLYmb";
 const configured = SUPABASE_URL.startsWith("https://") && SUPABASE_ANON_KEY.length > 20;
 const db = configured && window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
